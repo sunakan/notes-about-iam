@@ -1,0 +1,20 @@
+= AWSのIAM
+
+image:https://img.shields.io/badge/license-MIT-blue.svg[MIT, link=LICENSE]
+
+== お一人様AWS
+
+* 利用するポリシー
+** カスタマー管理ポリシー
+*** （A）IPアドレス制限
+*** （B）SwitchRole許可
+** AWS管理ポリシー
+*** （C）AdministratorAccess
+*** （D）ReadOnlyAccess
+
+* 作成するグループ
+** お一人様AWSグループ（suna-aws-group）
+*** （A）（B）（D）
+
+* 作成するロール
+** 管理者ロール(suna-admin-role)
